@@ -10,7 +10,7 @@ public class LLMGenerator : MonoBehaviour
 {
     public string[] fortune;
     public string[] emotion = new string[] { "anger", "fear", "disgust", "sadness", "happiness", "shy", "envy", "anxiety", "passive" };
-    private string apiKey = "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";
+    private string apiKey = "";
 
     void Start()
     {
